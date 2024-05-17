@@ -478,6 +478,16 @@ button {
 
     .info-section {
         grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        justify-items: center;
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    .box-header {
+        align-items: center;
     }
 
     .box h3 {
@@ -492,6 +502,20 @@ button {
     .about:nth-of-type(1) {
         grid-row-start: 1;
         grid-row-end: 3;
+    }
+
+    .about:nth-of-type(4) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .about-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    form {
+        text-align: left;
     }
 
     .under-section {
@@ -512,10 +536,6 @@ button {
 
     .under-section h3 {
         font-size: 20px;
-    }
-
-    .under-section img {
-        display: none;
     }
 
     .footer {
