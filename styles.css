@@ -302,10 +302,6 @@ button {
 }
 
 /* -- UNDER SECTION -- */
-
-svg {
-    margin: -10px;
-}
 .under-section {
     background-color: var(--darkgray);
     color: var(--white);
